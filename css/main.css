@@ -1,0 +1,121 @@
+
+/* admin view area  */
+.title_box {
+  background: #007286;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+.title_box h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+input:focus{
+  outline: 1px solid #7952b3 !important;
+}
+
+.submit_btn .btn_primaryy{
+  background-color: #7952b3;
+  color: #fff;
+}
+select {
+	display: block;
+	width: 100%;
+	padding: 8px;
+}
+
+
+@media (min-width: 320px) and (max-width: 576px) {
+
+
+}
+/* data view front end css */
+.heading_area{
+  text-align: center;
+  padding: 30px 0;
+  background-color: rgb(248, 240, 240);
+}
+.heading_area h2{
+  text-transform: capitalize;
+}
+.nessasary_text{
+  display: flex;
+  justify-content: space-between;
+  padding: 23px 10px;
+  background-color: rgb(233, 233, 233);
+  margin-bottom: 10px;
+}
+.nessasary_text a, p {
+	font-size: 32px;
+	text-transform: capitalize;
+}
+table{
+  width: 100%;
+  /* min-height: 500px; */
+  overflow: scroll;
+}
+table tr td {
+	border: 1px solid #000;
+	text-align: center;
+	text-transform: capitalize;
+}
+/* .overflow{
+  height: 600px;
+  overflow: auto;
+} */
+.btn.btn-primary.custom_theme_btn {
+	padding: 15px 67px;
+	margin-bottom: 21px;
+}
+.heading_area p{
+  font-size: 16px;
+}
+.loading {
+  position: absolute;
+  background: #f00;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  z-index: 999;
+}
+.vanish{
+    opacity: 0;
+    visibility:hidden;
+    z-index: 0;
+}
+.login_area {
+    max-width: 500px;
+    background: #ddd;
+    padding: 68px;
+}
+.login_box{
+    position: absoulute;
+    top: 50%;
+    left: 0;
+    transform: translateY(50%);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.loading {
+  position: absolute;
+  background: #f00;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items:center;
+  display:flex;
+  justify-content:center;
+  z-index: 999;
+}
+.vanish{
+    opacity: 0;
+    visivility:hidden;
+    z-index: 0;
+}
