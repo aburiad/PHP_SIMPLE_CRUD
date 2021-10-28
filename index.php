@@ -43,7 +43,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $user = $_POST['user'];
     $pass = $_POST['pass'];
 
-    if($user == 'ahsan' && $pass == 123){
+    if($user == 'user' && $pass == 123){
         header("Location:admin.php");
         echo "login successfull";
     }else{
